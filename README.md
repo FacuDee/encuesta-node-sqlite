@@ -3,7 +3,6 @@
 ![GitHub](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
 ![GitHub](https://img.shields.io/badge/Database-SQLite-blue?logo=sqlite)
 ![GitHub](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-yellow)
-![GitHub last commit](https://img.shields.io/github/last-commit/FacuDee/encuesta-node-sqlite.git)
 
 Aplicación web de encuestas que permite recolectar respuestas de usuarios y almacenarlas en una base de datos de manera sencilla y eficiente.
 
@@ -22,19 +21,19 @@ Aplicación web de encuestas que permite recolectar respuestas de usuarios y alm
 
 ### Página principal
 
-![Inicio](./frontend/imgs/captura-inicio.png)
+![Inicio](./frontend/imgs/captura-inicio.PNG)
 
 ### Vista encuesta
 
-![Encuesta](./frontend/imgs/captura-encuesta.png)
+![Encuesta](./frontend/imgs/captura-encuesta.PNG)
 
 ### Resultado de envío
 
-![Envío exitoso](./frontend/imgs/captura-envio.png)
+![Envío exitoso](./frontend/imgs/captura-envio.PNG)
 
 ### Resultados encuesta
 
-![Resultados](./frontend/imgs/captura-resultados.png)
+![Resultados](./frontend/imgs/captura-resultados.PNG)
 
 
 ---
