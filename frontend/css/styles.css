@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap");
+
+body {
+  font-family: Montserrat, "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5f5;
+  background-image: url("../imgs/muniOlav.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main>h2 {
+  text-align: center;
+}
+
+.pregunta > label {
+  font-size: large;
+  font-weight: bold;
+  color: #2E86C1;
+}
+
+
+section {
+  padding: 2rem;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pregunta {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.opciones label {
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 1px dashed #302f2f;
+  padding: 0.75rem; 
+}
+
+.opciones label:hover {
+  background-color: #f0f0f0;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+section>p {
+    margin-bottom: 2rem;
+}
+
+footer {
+  margin: auto;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 2rem;
+  text-align: center;
+}
+
+#contador-encuestas {
+  color: #2E86C1;
+  text-align: center;
+}
