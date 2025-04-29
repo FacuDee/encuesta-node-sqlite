@@ -39,25 +39,19 @@ Aplicación web de encuestas que permite recolectar respuestas de usuarios y alm
 
 ## ⚙️ Instalación y ejecución
 
-### 1. Clonar el repositorio
-
 1. Clonar repositorio:
    ```bash
    git clone https://github.com/FacuDee/encuesta-node-sqlite.git
    cd encuesta-node-sqlite
    ```
 
-### 2. Instalar dependencias del backend
-
-1. Instalar dependencias del backend:
+2. Instalar dependencias del backend:
    ```bash
    cd backend
    npm install
    ```
 
-### 3. Ejecutar el servidor
-
-1. Ejecutar el servidor:
+3. Ejecutar el servidor:
    ```bash
    node server.js
    ```
